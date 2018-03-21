@@ -1,0 +1,118 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Lato, Arial, sans-serif;
+    height: 100%;
+}
+
+.sorry{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sorry img{
+    margin: 20px;
+    width: 400px;
+}
+
+.section{
+    min-height: 100%;
+    width: 100%;
+    display: block;
+}
+.section h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section .container{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url("/assets/img/pattern.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #5b89da;
+    height: 100px;
+    position: relative;
+    display: block;
+    vertical-align:middle;
+    text-align:center;
+    line-height:100px;
+    width:100%;
+    font-size:3rem;
+}
+
+.title {
+    margin: auto;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.title i{
+    margin-right: 15px;
+    font-size: 80%;
+}
+
+.background{
+    background-image: url("/assets/img/Dani_Background2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 400px;
+    opacity: 0.8;
+    z-index: -10;
+}
+
+.section .header h1{
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.alignTopProfile {
+    display: flex;
+    align-items: center;
+}
+
+.backToDashboard{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    z-index: 10;
+    margin: 20px;
+}
+
+.backToDashboard a {
+    font-size: 2.5rem;
+    color: #b4b4b4;
+}
+
+.backToDashboard a:hover{
+    color: #548ffc;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        min-width: 800px;
+    }
+
+    .inputBox{
+        min-width: 100%;
+    }
+}

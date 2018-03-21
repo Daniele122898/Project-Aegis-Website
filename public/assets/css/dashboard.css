@@ -1,0 +1,253 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Lato, Arial, sans-serif;
+    height: 100%;
+}
+
+.concept img {
+    width: 250px;
+    margin: 30px auto;
+    display: block;
+}
+
+.alignInput{
+    margin: 0 auto;
+    display: block;
+    width: 632px;
+}
+
+.alignInput h3{
+    text-align: center;
+    color: #434343;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+.alignInput h5{
+    text-align: center;
+    color: #9f9f9f;
+    margin-bottom: 30px;
+}
+
+.searchButton{
+    float: right;
+    top: 2px;
+    position: relative;
+    margin: auto 12px;
+    text-align: center;
+    display: inline-block;
+    height: 23px;
+    width: 17px;
+    vertical-align: middle;
+    z-index: 6;
+}
+
+.searchButton i{
+    display: block;
+    font-size: 23px;
+    color: #9f9f9f;
+    cursor: pointer;
+}
+
+form{
+    display: block;
+    height: 44px;
+    width: 632px;
+    position: absolute;
+    margin-top: -2px;
+}
+
+input{
+    display: block;
+    width: 98%;
+    height: 95%;
+    margin: auto;
+    background-color: white;
+    padding:5px;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+    background-color: #fff;
+    outline: none;
+}
+
+#nav{
+    margin: 0;
+}
+
+#nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+#nav li a.active {
+    color: #6f6f6f;
+}
+
+#nav li a:hover{
+    color: #548ffc;
+    text-decoration: none;
+}
+
+#nav li a{
+    font-size: 1.15rem;
+    color: #bbb;
+    line-height: 45px;
+    display: block;
+    padding: 5px 10px;
+    font-weight: 300;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -khtml-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.input{
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #fff;
+    height: 44px;
+    vertical-align: top;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    margin: -1px 0px 1px;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    margin-top: -3px;
+    width: 632px;
+}
+
+.cont{
+    margin: 100px auto;
+    display: block;
+    min-width: 980px;
+    padding: 50px;
+}
+
+.section{
+    min-height: 100%;
+    width: 100%;
+    display: block;
+}
+.section h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section .container{
+}
+
+.row:first-child{
+    margin-bottom: 30px;
+}
+
+.background{
+    background-image: url("/assets/img/Dani_Background2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 400px;
+    opacity: 0.8;
+    z-index: -10;
+}
+
+.blockCard{
+    color: white;
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.blockCard a{
+    color: white;
+    text-decoration: none;
+}
+
+.blockCard a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#fileReport{
+    /*background-color: #ff5751;*/
+    background-color: #ff596a;
+    padding: 30px;
+    width: 75%;
+    height: 160px;
+    margin: 12px;
+    margin-bottom: 35px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.61);
+    float: right;
+}
+
+#fileReport:hover{
+    background-color: #ff6c75;
+}
+
+#settings{
+    background-color: #6d61e3;
+    padding: 30px;
+    height: 160px;
+    width: 75%;
+    margin: 12px auto;
+    margin-bottom: 35px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.61);
+}
+
+#settings:hover{
+    background-color: #7669f6;
+}
+
+#help{
+    background-color: #5081da;
+    padding: 30px;
+    height: 160px;
+    margin: 12px;
+    width: 75%;
+    margin-bottom: 35px;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.61);
+    float: left;
+}
+
+#help:hover{
+    background-color: #5a92f6;
+}
+
+.blockCard p{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.blockCard i{
+    font-size: 3.3rem;
+    line-height: 0;
+    color: white;
+}

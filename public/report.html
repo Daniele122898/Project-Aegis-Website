@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/report.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="assets/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <title>Project-Aegis | Dashboard</title>
+</head>
+<body>
+
+    <div class="alertPos">
+
+    </div>
+    <div class="section">
+        <div class="header">
+            <div class="title">
+                <h1><i class="icon ion-document-text"></i>Report Guild</h1>
+            </div>
+        </div>
+        <div id="previewWindow" style="display: none">
+        </div>
+        <div class="background">
+        </div>
+        <div class="backToDashboard">
+            <a href="/dashboard">
+                <i class="icon ion-home"></i>
+            </a>
+        </div>
+        <div class="container">
+            <div class="inputBox">
+                <div class="row">
+                    <div class="col-12">
+                        <h4>Guild ID</h4>
+                        <div class="input">
+                            <form action="#">
+                                <input id="inputBox" max="1000000000000000000000000" min="10000000000" type="number" value="" aria-label="Search" aria-haspopup="false">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 marginTop">
+                        <h4>Reason with Proof</h4>
+                        <p>Every Report must have a valid reason with comprehensible and real proof. Best are screenshots and logs. Max 1'000 chars!<br>
+                        Tip: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Use Markdown!</a>
+                        </p>
+                        <div class="inputArea">
+                            <textarea rows="4" cols="51" maxlength="1000" id="reasonText"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="backButtonPos">
+                            <a href="/dashboard"><button type="button" class="btn btn-danger"><i class="icon ion-chevron-left"></i>Back</button></a>
+                        </div>
+                        <div class="posButtons">
+                            <button type="button" class="btn btn-primary" id="prev"><i class="icon ion-eye"></i>Preview</button>
+                            <button type="button" class="btn btn-primary" id="sub"><i class="icon ion-android-send"></i>Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/reports.js"></script>
+</body>
+</html>
